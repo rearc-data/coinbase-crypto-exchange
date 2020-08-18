@@ -10,10 +10,10 @@ def data_to_s3(frmt):
     # otherwise downloads and uploads to s3
 
     source_dataset_url = 'https://www.cryptodatadownload.com/cdd/Coinbase_'
-    url_end = '_d.csv'
+    
 
     try:
-        response = urlopen(source_dataset_url + frmt + url_end)
+        response = urlopen(source_dataset_url + frmt)
 
     except HTTPError as e:
         raise Exception('HTTPError: ', e.code, frmt)
@@ -23,8 +23,8 @@ def data_to_s3(frmt):
 
     else:
         data_set_name = os.environ['DATA_SET_NAME']
-        filename = data_set_name + frmt
-        file_location = '/tmp/' + filename + '.csv'
+        filename = data_set_name + frmt 
+        file_location = '/tmp/' + filename 
 
         with open(file_location, 'wb') as f:
             f.write(response.read())
@@ -50,9 +50,12 @@ def source_dataset():
 
     # list of enpoints to be used to access data included with product
     data_endpoints = [
-        'BTCUSD',
-        'ETHUSD',
-        'LTCUSD'
+        'BTCUSD_d.csv',
+        'ETHUSD_d.csv',
+        'LTCUSD_d.csv',
+        'BTCUSD_1h.csv',
+        'ETHUSD_1h.csv',
+        'LTCUSD_1h.csv'
     ]
 
     # multithreading speed up accessing data, making lambda run quicker
