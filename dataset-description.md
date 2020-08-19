@@ -1,0 +1,1 @@
+The Coinbase Data Exchange provides the timeframe, open, high, low, and close(OHLC) prices and volume amount(cryptocurrency and USD) for Bitcoin, Ethereum, and Litecoin. The data presented shows cyptocurrency prices based in terms of USD(i.e. BTC/USD). The timeframe is given as a Unix timestamp.
