@@ -1,7 +1,7 @@
 Coinbase Cryptocurrency Exchange | Crypto Data Download
 =========================
 
-**Update(1/04/2021): The Coinbase Cryptocurrency Exchange product is currently archived and will not have updated revisions for the forseeable future.**
+**Update(1/04/2021): The Coinbase Cryptocurrency Exchange product is currently archived and will not have any updated revisions for the forseeable future.**
 
 The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/coinbase-crypto-exchange](https://github.com/rearc-data/coinbase-crypto-exchange).
 
