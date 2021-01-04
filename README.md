@@ -5,6 +5,8 @@
 Coinbase Cryptocurrency Exchange | Crypto Data Download
 ========================= 
 
+**Update(1/04/2021): The Coinbase Cryptocurrency Exchange product is currently archived and will not have any updated revisions for the foreseeable future.**
+
 You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-yhtbufxfcm56q](https://aws.amazon.com/marketplace/pp/prodview-yhtbufxfcm56q). 
 
 ## Main Overview
